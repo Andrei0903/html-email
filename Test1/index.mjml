@@ -1,0 +1,122 @@
+<mjml>
+    <mj-head>
+        <mj-title>Apple</mj-title>
+        <mj-style>
+            .up{
+                font-family: Verdana;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10px;
+                line-height: 12px;
+                color: #FFFFFF;
+                margin-bottom: 5px;
+            }
+            .value{
+                font-family: Verdana;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 36px;
+                color: #FFFFFF;
+                margin-bottom: 10px;
+            }
+            .advanse{
+                font-family: Helvetica Neue;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10px;
+                line-height: 12px;
+                color: #FFFFFF;
+            }
+            .social{
+                background-color: transparent;
+            }
+            .link-here{
+                font-size: 10px;
+                line-height: 12px;
+                text-decoration:none;
+                color: #51ACFF;
+            }
+        </mj-style>    
+    </mj-head> 
+    <mj-body width="640px">
+        <mj-section background-color="#313131" padding="0">
+            <mj-column>
+                <mj-image width="24px" align="center" padding="24px" src="img/apple.png" />
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#141415" padding="0">
+            <mj-column>
+                <mj-text padding="50px 30px 0 30px" color="#fff" font-size="40px" line-height="49px" font-family="Vardana"  align="center" font-weight="bold">
+                    <h1 style="font-size: inherit;">Our most stunning take on post-production.</h1>
+                </mj-text>
+                <mj-button css-class="link" font-family="Vardana" font-weight="bold" background-color="transparent" color="#51ACFF" font-size="15px" line-height="18px" href="google.com">
+                    Buy now 
+                </mj-button>
+            </mj-column>
+        </mj-section>
+         <mj-section background-color="#141415" padding="0">
+            <mj-column>
+                <mj-image align="center"  src="img/mac.png" />
+            </mj-column>
+        </mj-section>
+        <mj-wrapper background-color="#141415">
+            <mj-section>
+                <mj-column>
+                    <mj-text>
+                        <div class="up">up to</div>
+                        <div class="value">3.2x</div>
+                        <div class="advanse">faster render</div>
+                    </mj-text>
+                    <mj-image src="img/ran.png" />
+                </mj-column>
+                <mj-column>
+                    <mj-text>
+                        <div class="up">up to</div>
+                        <div class="value">8x</div>
+                        <div class="advanse">faster render</div>
+                    </mj-text>
+                    <mj-image src="img/ran.png" />
+                </mj-column>
+                <mj-column>
+                    <mj-text>
+                        <div class="up">up to</div>
+                        <div class="value">2x</div>
+                        <div class="advanse">faster render</div>
+                    </mj-text>
+                    <mj-image src="img/ran.png" />
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+           <mj-section  background-color="#313131" padding="48px 20px" padding-bottom="30px">
+            <mj-group width="220px">
+                <mj-column>
+                    <mj-button background-color="transparent" padding="0" css-class="social" href="google.com">
+                       <image src="img/fb.png"/>
+                    </mj-button>
+                   
+                </mj-column>
+                <mj-column>
+                    <mj-button background-color="transparent" padding="0" css-class="social" href="google.com">
+                       <image src="img/tv.png"/>
+                    </mj-button>
+                </mj-column>
+                <mj-column>
+                    <mj-button background-color="transparent" padding="0" css-class="social" href="google.com">
+                       <image  src="img/in.png"/>
+                    </mj-button>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <mj-section  background-color="#313131" padding="48px 40px" padding-top="0" padding-bottom="20px">
+            <mj-column>
+                <mj-text font-family="Verdana" font-weight="nornal" line-height="18px" color="#7d7d7d" font-size="10px" align="center" >
+                    All rights reserved. Copyright © 2019 Apple Inc. 1 Infinite Loop, Cupertino, CA 95014
+                </mj-text>
+                <mj-text font-family="Verdana" font-weight="nornal" line-height="18px" color="#7d7d7d" font-size="10px" align="center">
+                    This email was sent to hello@you.com because you indicated that you’d like to stay up to date on the latest features, services, support info and offers for Final Cut Pro. You can unsubscribe from Final Cut Pro emails <a href="#" class="link-here">here</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
